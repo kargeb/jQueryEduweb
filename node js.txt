@@ -1,0 +1,14 @@
+1 . Instalacja node.js ze stronuy 
+2. LEWY shift na klawiaturze i wybierz na katalogi "app" otworz wierszp olecenia tutaj
+3. instakacja modolow:  
+	npm install
+
+TO U ZGÓRY TYLKO RAZ
+
+===============================================
+
+Uruchamianie NODE.js za kazdym razem gdy chesz uzywac go:
+
+1. Prawy przysick na app z lewym shiftem i ywbierz "otworz okno polecenia tutaj"
+2. wpiszujesz
+	node index.js
