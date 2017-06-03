@@ -1,4 +1,4 @@
-console.log("Praktyczny projekt - gwiazdkowa ocena");
+console.log("15 Praktyczny projekt - gwiazdkowa ocena");
 
 //1. zrobienie wizualnej zmiany gwiazdek po najechaniu
 //2. zrobie za pomoca jQuery zeby po zaznaczeiu gwiazki, zaznaczalo sie rowniez odpowiednie pole radio, dzieki czemu mozna bedzie zaznaczyc konkretna ocene i ja wyslac
