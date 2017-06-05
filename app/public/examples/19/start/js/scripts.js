@@ -1,3 +1,7 @@
+console.log("19 PRACA Z ATRYBUTAMI ELEMENTOW");
+
+// Zmienianie atrubutow elementow HTML
+
 (function($) {
 
     $(document).ready(function() {
@@ -6,6 +10,7 @@
 
             e.preventDefault();
 
+            
 
         });
 
