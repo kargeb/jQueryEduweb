@@ -19,7 +19,7 @@ console.log("20 MANIPULACJA KOLEJNOSCIA ELEMENTÓW");
 // UWAGA ! WAZNE ! Wszystkie te metody wstawiaja dany element W NOWE miejsce ! (przesuwaja ze starego) 
         
     // PRZESUWANIE ELEMENTU:
-//        $(".rte").prepend(button);  // przesuniecie na gore z dolu
+        $(".rte").prepend(button);  // przesuniecie na gore z dolu
         
     // KLONOWANIE ELEMENTU
         $(".rte").prepend( button.clone() );
@@ -31,7 +31,7 @@ console.log("20 MANIPULACJA KOLEJNOSCIA ELEMENTÓW");
         $(".rte").prepend( button.clone(true, false) );   
         
 // ZASTAPONIENIE wszystkich wybranych elementow INNYM ELEMENTEM:
-/*        
+        
     $("<div>Zastapienie</div>").replaceAll(".rte p");  // konkret
         // METODA ODWROTNA robiaca to samo, ALE W SUMIE LEPSZA BO MOZE PRZYJMOWAC FUNKCJE 
     $(".rte li").replaceWith("<p>dupa dupa</p>");    // tez spoko
@@ -44,7 +44,7 @@ console.log("20 MANIPULACJA KOLEJNOSCIA ELEMENTÓW");
     
 // OPLATANIE ELEMENTOW W INNE:
         $(".rte p").wrap("<div></div>");  // zamkniecie kazdego p w diva
-    */    
+       
     // Skorzystanie z funkcji !
         $(".rte p").wrap(function(i) {      // Szybckie dodanie diva z rosnaca klasa, dzieki czemu
            return $("<div></div>", {        // mozemy w szybki sposob cos tutaj se pooznaczac
