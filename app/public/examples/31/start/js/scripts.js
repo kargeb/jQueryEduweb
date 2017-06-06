@@ -1,3 +1,7 @@
+console.log("31 PRAKTYCZNY PROJEKT: ACCORDIN");
+
+//
+
 (function($) {
 
    $(document).ready(function() {
