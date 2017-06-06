@@ -33,12 +33,12 @@ console.log("25 POKAZYWANIE I UKRYWANIE ELEMENTOW");
 //  hide("slow")      show(200);
 // akurat w naszym przypadku te parametry wplywaja zarowno na wysokosc jak i szerokosc elementu, i jak dzieje sie to w srodku paragarfu to chujowow to wyglada. Są do tego inne odpowiednie funkcje 
             
-/*            
+            
 // podobne CO U GORY MOZNA ZROBNIC TOGGLEM !
             
             content.toggle();   // TYLKO TA JEDNA LINIJKA ! Ona (chyba) wykrywa o jaki atrybut chodzi i sobie go zmienia w zaleznosci od stanu w jakim go zastaje
 // UWAGA ! Za pomoca samego toggle niestety nie mozna zamienic juz napisu !            
-*/            
+            
         });
         
 // KOLEJNE FUNKCJE  ####################################################
@@ -59,11 +59,11 @@ console.log("25 POKAZYWANIE I UKRYWANIE ELEMENTOW");
                 var hidden = $(".rte .hidden");
 // UWAGA ! My mamy jeden element ale jakby bylo wiecej TO DZIALA TO NA KAZDY Z NICH                  
               
-//                if (hidden.is(":hidden")) {
-//                    hidden.slideDown(500);
-//                } else {
-//                    hidden.slideUp(3000);
-//                }
+                if (hidden.is(":hidden")) {
+                    hidden.slideDown(500);
+                } else {
+                    hidden.slideUp(3000);
+                }
                 
                 // TUTAJ TEZ MAMY TOGGLE ! ale POD NAZWA SLIDETOGGLE !          
                 $.fx.speeds.wChujWolno = 3000;
@@ -79,14 +79,14 @@ console.log("25 POKAZYWANIE I UKRYWANIE ELEMENTOW");
             $(button2).on("click", function() {          
                 
                 var hidden = $(".rte .hidden");
-//                
-//                if (hidden.is(":hidden")) {
-//                    hidden.fadeIn(500);
-//                } else {
-//                    hidden.fadeOut(3000);
-//                }
+                
+                if (hidden.is(":hidden")) {
+                    hidden.fadeIn(500);
+                } else {
+                    hidden.fadeOut(3000);
+                }
             // TUTAJ TEZ JEST TOGGLE:
-             //   hidden.fadeToggle(500);
+                hidden.fadeToggle(500);
                 
 // METODA FADETO ###################
                 

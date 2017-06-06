@@ -32,9 +32,9 @@ console.log("19 PRACA Z ATRYBUTAMI ELEMENTOW");
           
         // BARDZO CIEKAWA MEOTDA -> "is"
         // sprawdza czy dany element posiada jakas wlasciwosc czy to klase czy atrubut:
-        //   $(this).is(".klasa")  -> czy w ogole ma klase
-        //   $(this).is("[width]")  -> czy w ogole ma parametr width
-        //   $(this).is("[width='200']")  -> czy ma ten paramter rowny 200
+           $(this).is(".klasa")  -> czy w ogole ma klase
+           $(this).is("[width]")  -> czy w ogole ma parametr width
+           $(this).is("[width='200']")  -> czy ma ten paramter rowny 200
 // mozna z tego skorzytsac np w ten sposob:
             
             if( $(this).is("[width='300']") ) {       

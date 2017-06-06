@@ -1,4 +1,4 @@
-console.log("WYWOŁYWANIE ZDARZEŃ i TWORZENIE WŁASNYCH");
+console.log("12 WYWOŁYWANIE ZDARZEŃ i TWORZENIE WŁASNYCH");
 
 // Czyli o tym jak wywoływać zdarzenia nie bezpośrednio na danym elemencie ale z innego miejsca na stronie, np klikajac w button wywolac konkretne zdarzenie zarezerwowane dla linkow
 

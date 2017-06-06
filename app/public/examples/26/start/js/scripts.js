@@ -18,9 +18,9 @@ console.log("26 ANIMACJA WŁAŚCIWOŚCI CSS");
 // FUNKCJA ANIMATEL: Pierwszy argument to obiekt z informacjami co chcemy zmieniac i do jakiej wartości, drugi to CZAS w jaki ma sie to wykonac. Wszystkie właściowści będą się zmieniać równocześnie właśnie przez tyle ile dalismy w druim parametrze.            
             img.animate({
                 "width": "100%",
- //               "width": "toggle",  // Z toggle obrazek bedzie sie plynnie pojawial i znikal !
- //               "width": "+=100",   // obrazek bedzie sie powiekszal z kazdym kliknieciem
- //               "opacity": "+=0.1", // przezroczystosc zmniejszana za kazdym klikniecie,
+                "width": "toggle",  // Z toggle obrazek bedzie sie plynnie pojawial i znikal !
+                "width": "+=100",   // obrazek bedzie sie powiekszal z kazdym kliknieciem
+                "opacity": "+=0.1", // przezroczystosc zmniejszana za kazdym klikniecie,
                 "opacity": 0.9
             }, 500);
         });

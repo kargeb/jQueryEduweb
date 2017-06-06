@@ -43,12 +43,12 @@ console.log("15 Praktyczny projekt - gwiazdkowa ocena");
            
 // UWAGA WAZNE !!
     // Nie moglibysmy u gory srobic czegos takiego: 
-        //  radios.eq(index).checked = true
+          radios.eq(index).checked = true
     // BO TO DZIALA TYLKO NA NATYWNYCH ELEMENTACH a my tutaj mamy zaladowany OBIEKT JQUERY, ktory NIE MA TAKIEJ METODY ! 
     // Ale ZAWSZE mozna taki natywny element wylowic w ten sposób:
-        //  radios.eq(index)[0]   !!!
+          radios.eq(index)[0]   !!!
     // Po dokladnie takiej operacji, mamy wylowiony natywny element no i teraz mozna tak:
-        //  radios.eq(index)[0].checked = true;  !!!
+          radios.eq(index)[0].checked = true;  !!!
        });
 // POZOSTAŁĄ częśc robi juz za nas HTML czyli jak zaznacvzymy odpowiednie radio to on metoda GET wysyla dany parametr CO WIDOCZNE JEST W PASKU ADRESU       
     });

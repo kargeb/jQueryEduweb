@@ -12,17 +12,17 @@ console.log("14 Praca z klasami CSS");
 
         button.on("click", function() {
 
-//                button.addClass("button--inactive mojaKlasa"); // DODANIE KLASY
+                button.addClass("button--inactive mojaKlasa"); // DODANIE KLASY
 // MOZNA DODWACA KILKA NA RAZ, wlasnie w ten sposob, wpisujac je po spacji !
             
-  //              button.removeClass("button"); // USUNIECIE KLASY
+                button.removeClass("button"); // USUNIECIE KLASY
     
 // Caly kod pod spodem mozna zamienic jedna metoda - TOGGLECLASS            
-//            if(button.hasClass("button--inactive")) {
-//                button.removeClass("button--inactive");
-//            } else {
-//                button.addClass("button--inactive");
-//            }
+            if(button.hasClass("button--inactive")) {
+                button.removeClass("button--inactive");
+            } else {
+                button.addClass("button--inactive");
+            }
             
             button.toggleClass("button--inactive");
 
