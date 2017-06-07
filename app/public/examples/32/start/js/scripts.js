@@ -1,3 +1,5 @@
+console.log("32 PETLA EACH DLA ZBIOROW");
+
 (function($) {
 
    $(document).ready(function() {
