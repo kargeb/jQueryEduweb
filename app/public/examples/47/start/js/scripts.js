@@ -1,3 +1,5 @@
+console.log("47 PRAKTYCZNY PROJEKCT: PRELOADER OBRAZOW");
+
 (function($) {
 
     $(document).ready(function() {
