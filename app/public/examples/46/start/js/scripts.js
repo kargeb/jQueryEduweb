@@ -1,3 +1,5 @@
+console.log("46 ZASADA DZIAŁANIA DEFERREND");
+
 (function($) {
 
     function getName(ms) {
