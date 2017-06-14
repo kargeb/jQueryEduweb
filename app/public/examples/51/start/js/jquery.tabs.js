@@ -1,3 +1,5 @@
+console.log("51 PRAKTYCZNY PROJEKT: ZAKŁADKI");
+
 (function($, window, document, undefined) {
 
     $.fn.tabs = function() {
