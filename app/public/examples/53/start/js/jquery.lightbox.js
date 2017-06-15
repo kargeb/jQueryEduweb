@@ -1,3 +1,4 @@
+// NIE DRUKOWAC! NIC SIE TU NIE ZMIENIALO !
 (function($, window, document, undefined) {
 
     var win = $(window),
